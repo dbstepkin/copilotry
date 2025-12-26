@@ -41,27 +41,30 @@ export const ContextualAI = () => {
         <section className="min-h-screen flex flex-col justify-center py-24 px-6 relative overflow-hidden">
             <div className="absolute inset-0 bg-primary-blue/5 opacity-30" />
 
-            <div className="max-w-7xl mx-auto w-full relative z-10">
-                <div className="grid md:grid-cols-2 gap-12 mb-20 items-start text-left">
+            <div className="max-w-5xl mx-auto w-full relative z-10">
+                <div className="grid md:grid-cols-2 gap-12 mb-8 items-end">
                     <div className="space-y-4">
                         <h2 className="text-3xl md:text-5xl font-bold text-text-main">
                             Use cases
                         </h2>
-                        <p className="text-text-muted text-lg max-w-lg">
-                            Tailored for the most critical searches. From technical leads to strategic growth specialists, we find the DNA that matters.
-                        </p>
                     </div>
                     <div className="space-y-4">
                         <h2 className="text-3xl md:text-4xl font-bold font-mono leading-tight">
-                            ...supercharged by <span className="relative inline-block whitespace-nowrap">
-                                <span className="relative z-10 text-primary-blue">contextual AI-analysis</span>
+                            ...supercharged by <span className="relative inline-block text-primary-blue">
+                                contextual AI-analysis
                                 <span className="absolute -bottom-1 left-0 w-full h-3 bg-primary-blue/10 -rotate-1" />
                             </span>
                         </h2>
-                        <p className="text-text-muted text-lg max-w-lg">
-                            Evaluate any criteria that can be inferred from a profile. If it's written between the lines, we find it.
-                        </p>
                     </div>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-12 mb-20">
+                    <p className="text-text-muted text-lg max-w-lg">
+                        Tailored for the most critical searches. From technical leads to strategic growth specialists, we find the DNA that matters.
+                    </p>
+                    <p className="text-text-muted text-lg max-w-lg">
+                        Evaluate any criteria that can be inferred from a profile. If it's written between the lines, we find it.
+                    </p>
                 </div>
 
                 <div className="relative h-48 md:h-64 flex items-center justify-center">

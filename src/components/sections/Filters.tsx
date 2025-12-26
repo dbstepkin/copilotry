@@ -20,7 +20,7 @@ export const Filters = () => {
     ]
 
     return (
-        <section id="filters" className="min-h-screen flex flex-col justify-center py-24 px-6 bg-surface/20">
+        <section id="filters" className="min-h-[70vh] flex flex-col justify-center py-24 px-6 bg-surface/20">
             <div className="max-w-7xl mx-auto">
                 <div className="flex flex-col md:flex-row justify-between items-start gap-6 mb-12">
                     <div className="max-w-4xl">
