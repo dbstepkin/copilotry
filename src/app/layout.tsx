@@ -15,6 +15,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
     title: "CoPilotry | Find your perfect copilot with unparalleled precision",
     description: "Pick base filters. Add smart context. Get perfectly matching people with profile links. Save months of searching.",
+    icons: {
+        icon: "/favicon.svg",
+    },
     openGraph: {
         title: "CoPilotry",
         description: "Find your perfect copilot with unparalleled precision",
