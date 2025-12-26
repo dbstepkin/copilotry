@@ -25,7 +25,7 @@ export const HowItWorks = () => {
         {
             icon: <UserCheck size={32} />,
             title: "Get your shortlist",
-            desc: "Receive a shortlist with reasoning and proof links. No more manual screening.",
+            desc: "Receive a shortlist with reasoning and proof links. Then reach out to people directly through your LinkedIn account or automation tools",
             bullets: []
         }
     ]
@@ -35,7 +35,7 @@ export const HowItWorks = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-5xl font-bold mb-4">How it works</h2>
-                    <p className="text-text-muted text-lg">From zero to your perfect match in three simple steps.</p>
+                    <p className="text-text-muted text-lg">From criteria to a proof-backed shortlist in three simple steps.</p>
                 </div>
 
                 <div className="grid lg:grid-cols-3 gap-8">

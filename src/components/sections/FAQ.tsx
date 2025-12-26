@@ -7,8 +7,12 @@ import { cn } from '@/lib/utils'
 
 const faqItems = [
     {
+        question: "Is CoPilotry a platform or a marketplace?",
+        answer: "No. CoPilotry doesn’t host profiles or projects. It searches public profiles, applies your base filters plus contextual fit analysis, and returns a shortlist with proof links so you can reach out on LinkedIn."
+    },
+    {
         question: "What do I get: links only or exports?",
-        answer: "You get a dashboard with shortlisted profiles, reasoning for each match, and proof links. Users can export shortlists to CSV or XSLX formats."
+        answer: "You get a dashboard with shortlisted profiles, reasoning, and proof links (we don’t host profiles). You can export shortlists to CSV or XLSX."
     },
     {
         question: "What is intelligent context?",
