@@ -7,17 +7,13 @@ import { RotatingText } from '@/components/ui/RotatingText'
 import { ExternalLink, CheckCircle2, Search } from 'lucide-react'
 import { useWaitlist } from '@/hooks/useWaitlist'
 
-export const Hero = () => {
+export const Hero = ({ onJoinWaitlist }: { onJoinWaitlist?: (email: string) => void }) => {
     const [email, setEmail] = useState('')
-    const [who, setWho] = useState('')
-    const { submitEmail, isLoading, isSuccess, error } = useWaitlist()
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
-        await submitEmail(email, who)
-        if (!error) {
-            setEmail('')
-            setWho('')
+        if (onJoinWaitlist) {
+            onJoinWaitlist(email)
         }
     }
 
@@ -58,46 +54,25 @@ export const Hero = () => {
                         Perfect-fit shortlist with contextual filters in 4 minutes, instead of a week lost in LinkedIn.
                     </p>
 
-                    {!isSuccess ? (
-                        <>
-                            <form
-                                id="waitlist"
-                                onSubmit={handleSubmit}
-                                className="flex flex-col gap-4 w-full max-w-lg mx-auto mb-4"
-                            >
-                                <div className="space-y-4">
-                                    <input
-                                        type="email"
-                                        required
-                                        placeholder="Enter your work email"
-                                        className="w-full px-4 py-3 rounded-2xl bg-surface border border-border focus:outline-none focus:ring-2 focus:ring-primary-blue/50 text-text-main transition-all"
-                                        value={email}
-                                        onChange={(e) => setEmail(e.target.value)}
-                                    />
-                                    <div className="flex flex-col gap-1.5">
-                                        <label className="text-left text-xs font-medium text-text-muted ml-1">Who are you trying to find?</label>
-                                        <textarea
-                                            required
-                                            placeholder="(e.g. Co-founder, AI background, full-stack, US-based, founder experience, salestech)"
-                                            className="w-full px-4 py-3 rounded-2xl bg-surface border border-border focus:outline-none focus:ring-2 focus:ring-primary-blue/50 text-text-main transition-all min-h-[100px] resize-none"
-                                            value={who}
-                                            onChange={(e) => setWho(e.target.value)}
-                                        />
-                                    </div>
-                                </div>
-                                <Button type="submit" size="md" disabled={isLoading} className="w-full">
-                                    {isLoading ? 'Joining...' : 'Join waitlist'}
-                                </Button>
-                            </form>
-                            {error && <p className="text-red-500 text-sm mb-4">{error}</p>}
-                        </>
-                    ) : (
-                        <div className="flex flex-col items-center mb-8">
-                            <div className="bg-emerald-500/10 text-emerald-500 px-6 py-3 rounded-2xl border border-emerald-500/20 font-bold">
-                                You are on the waitlist! Stay tuned for launch news.
-                            </div>
+                    <form
+                        id="waitlist"
+                        onSubmit={handleSubmit}
+                        className="flex flex-col gap-4 w-full max-w-md mx-auto mb-4"
+                    >
+                        <div className="flex flex-col sm:flex-row gap-3">
+                            <input
+                                type="email"
+                                required
+                                placeholder="Enter your email"
+                                className="flex-1 px-4 py-3 rounded-2xl bg-surface border border-border focus:outline-none focus:ring-2 focus:ring-primary-blue/50 text-text-main transition-all"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                            />
+                            <Button type="submit" size="md">
+                                Join waitlist
+                            </Button>
                         </div>
-                    )}
+                    </form>
                     <p className="text-sm text-text-muted/60 mb-16">
                         Launching January 2026.
                     </p>
