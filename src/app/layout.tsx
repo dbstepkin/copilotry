@@ -19,6 +19,17 @@ export const metadata: Metadata = {
     icons: {
         icon: "/favicon.svg",
     },
+    alternates: {
+        canonical: "https://www.copilotry.app/",
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+        },
+    },
     openGraph: {
         title: "CoPilotry",
         description: "Find your perfect copilot with unparalleled precision",
