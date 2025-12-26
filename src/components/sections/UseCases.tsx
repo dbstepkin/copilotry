@@ -25,16 +25,6 @@ const useCases = [
             { name: "David Kim, PhD", title: "Former BioTech Founder", reasons: ["PhD from MIT", "Raised $20M for last venture"] },
             { name: "Sarah Miller", title: "Senior Research Scientist", reasons: ["Lead at GenoTech", "3x patented inventor"] }
         ]
-    },
-    {
-        id: 'top-hire',
-        label: 'Top-hire',
-        query: 'Head of Sales for AI platform',
-        context: 'Experience selling to Fortune 500. Must have built sales teams from 1 to 20 people. Knowledge of LLM landscape is preferred.',
-        candidates: [
-            { name: "James Wilson", title: "Ex-Salesforce Enterprise Lead", reasons: ["Built 30-person team at AI Vision", "Consistent 150% quota achiever"] },
-            { name: "Anna Sokolov", title: "Head of Growth @ AI Lab", reasons: ["Deep LLM sales experience", "Strong network in enterprise"] }
-        ]
     }
 ]
 

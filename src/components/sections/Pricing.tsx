@@ -24,9 +24,9 @@ export const Pricing = ({ onJoinWaitlist }: { onJoinWaitlist?: () => void }) => 
                     </div>
 
                     <h3 className="text-2xl font-bold mb-2">Pay-as-you-go</h3>
-                    <div className="flex items-baseline gap-2 mb-8">
-                        <span className="text-5xl md:text-7xl font-bold text-text-main">From $0.05</span>
-                        <span className="text-text-muted">for analyzing of 1 person</span>
+                    <div className="flex flex-col items-center mb-8">
+                        <span className="text-5xl md:text-7xl font-bold text-text-main">$0.05</span>
+                        <span className="text-text-muted text-sm mt-2">for 1 person that fit your base criteria + contextual AI-analysis for free</span>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-6 w-full max-w-2xl mb-10">
@@ -36,7 +36,7 @@ export const Pricing = ({ onJoinWaitlist }: { onJoinWaitlist?: () => void }) => 
                             "Contextual intelligence included",
                             "LinkedIn profile extraction",
                             "Direct contact discovery",
-                            "Export to CSV/JSON"
+                            "Export to CSV/XLSX"
                         ].map((item, i) => (
                             <div key={i} className="flex items-center gap-3 text-text-main/80">
                                 <div className="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-500 flex items-center justify-center shrink-0">
