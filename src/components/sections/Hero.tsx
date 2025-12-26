@@ -39,7 +39,7 @@ export const Hero = ({ onJoinWaitlist }: { onJoinWaitlist?: (email: string) => v
                     className="flex flex-col items-center w-full"
                 >
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-blue/10 text-primary-blue border border-primary-blue/20 mb-6 backdrop-blur-sm">
-                        <span className="text-xs font-bold tracking-wider uppercase">No LinkedIn account required</span>
+                        <span className="text-xs font-bold tracking-wider uppercase">Early beta perk: 100 profiles free</span>
                     </div>
 
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 max-w-5xl leading-[1.2] flex flex-col items-center">
@@ -69,7 +69,7 @@ export const Hero = ({ onJoinWaitlist }: { onJoinWaitlist?: (email: string) => v
                                 onChange={(e) => setEmail(e.target.value)}
                             />
                             <Button type="submit" size="md">
-                                Join waitlist
+                                Claim beta spot
                             </Button>
                         </div>
                     </form>

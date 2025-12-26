@@ -51,7 +51,7 @@ export const Header = ({ onJoinWaitlist }: { onJoinWaitlist?: () => void }) => {
 
                 <div className="flex items-center gap-4">
                     <Button variant="primary" size="sm" onClick={onJoinWaitlist}>
-                        Join waitlist
+                        Claim beta spot
                     </Button>
                 </div>
             </div>

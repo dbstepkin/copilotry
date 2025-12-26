@@ -12,10 +12,10 @@ export const LaunchBand = ({ onJoinWaitlist }: { onJoinWaitlist?: () => void }) 
                         Private beta starts in January 2026
                     </h2>
                     <p className="text-xl text-text-muted mb-10 max-w-xl text-balance">
-                        Join the waitlist to get the first invites and experience the future of recruitment search.
+                        Claim a beta spot. First 100 users get 100 base-match profiles free, with contextual AI fit analysis on each.
                     </p>
                     <Button size="lg" onClick={onJoinWaitlist}>
-                        Join waitlist
+                        Claim beta spot
                     </Button>
                 </div>
             </div>
