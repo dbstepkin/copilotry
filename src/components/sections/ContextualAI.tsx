@@ -91,15 +91,7 @@ export const ContextualAI = () => {
                     </div>
                 </div>
 
-                {/* Second Section: Use cases heading */}
-                <div className="mt-16 text-center mb-12">
-                    <h2 className="text-3xl md:text-5xl font-bold text-text-main mb-4">
-                        Use cases
-                    </h2>
-                    <p className="text-text-muted text-lg whitespace-nowrap">
-                        Built for founder-critical searches. Co-founders, advisors, and first key operators, filtered by real context.
-                    </p>
-                </div>
+                {/* Second Section intentionally removed */}
             </div>
         </section>
     )

@@ -51,7 +51,7 @@ export const Hero = ({ onJoinWaitlist }: { onJoinWaitlist?: (email: string) => v
                     </h1>
 
                     <p className="text-lg md:text-xl text-text-muted mb-10 max-w-3xl text-balance mx-auto">
-                        A perfect-fit shortlist with contextual filters in 4 minutes, instead of a week lost in profile tabs.
+                        Perfect-fit shortlist with contextual filters in 4 minutes, instead of a week lost in profile tabs.
                     </p>
 
                     <form

@@ -49,14 +49,22 @@ export const ResultsVisual = () => {
                             <div className="w-3 h-3 rounded-full bg-slate-300" />
                             <div className="w-3 h-3 rounded-full bg-slate-300" />
                         </div>
-                        <div className="ml-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Candidate Comparison Matrix</div>
+                        <div className="ml-4 text-xs font-semibold text-slate-400 uppercase tracking-wider">Profile comparison matrix</div>
                     </div>
 
                     <div className="overflow-x-auto">
                         <table className="w-full text-left">
                             <thead>
                                 <tr className="border-b border-slate-100 italic">
-                                    <th className="px-8 py-6 text-sm font-bold text-slate-900">Profile</th>
+                                    <th className="px-8 py-6 text-sm font-bold text-slate-900">
+                                        Profile
+                                        <div className="flex flex-wrap gap-2 mt-2 text-xs text-slate-600">
+                                            <span className="px-3 py-1 rounded-full bg-slate-100">Industry: IT</span>
+                                            <span className="px-3 py-1 rounded-full bg-slate-100">Country: US</span>
+                                            <span className="px-3 py-1 rounded-full bg-slate-100">Seniority: C-level</span>
+                                            <span className="px-3 py-1 rounded-full bg-slate-100">Job title: Advisor</span>
+                                        </div>
+                                    </th>
                                     <th className="px-6 py-6 text-sm font-bold text-slate-900 text-center">Proof links</th>
                                     <th className="px-6 py-6 text-sm font-bold text-slate-400 text-center">
                                         Criteria 1

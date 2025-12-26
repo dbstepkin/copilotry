@@ -7,7 +7,6 @@ import { HowItWorks } from '@/components/sections/HowItWorks'
 import { ResultsVisual } from '@/components/sections/ResultsVisual'
 import { Filters } from '@/components/sections/Filters'
 import { ContextualAI } from '@/components/sections/ContextualAI'
-import { UseCases } from '@/components/sections/UseCases'
 import { Pricing } from '@/components/sections/Pricing'
 import { LaunchBand } from '@/components/sections/LaunchBand'
 import { FAQ } from '@/components/sections/FAQ'
@@ -35,7 +34,6 @@ export default function Home() {
             <ResultsVisual />
             <Filters />
             <ContextualAI />
-            <UseCases />
             <Pricing onJoinWaitlist={() => openWaitlist()} />
             <LaunchBand onJoinWaitlist={() => openWaitlist()} />
             <FAQ />

@@ -15,9 +15,7 @@ export const Footer = () => {
                 </div>
 
                 <div className="flex flex-wrap justify-center gap-8 text-sm text-text-muted">
-                    <a href="#" className="hover:text-text-main transition-colors">Privacy Policy</a>
-                    <a href="#" className="hover:text-text-main transition-colors">Terms of Service</a>
-                    <a href="mailto:hello@copilotry.com" className="hover:text-text-main transition-colors">hello@copilotry.com</a>
+                    <a href="mailto:team@karhuno.com" className="hover:text-text-main transition-colors">team@karhuno.com</a>
                 </div>
 
                 <div className="text-sm text-text-muted">
