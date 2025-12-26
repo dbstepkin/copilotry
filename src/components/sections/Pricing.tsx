@@ -26,7 +26,7 @@ export const Pricing = ({ onJoinWaitlist }: { onJoinWaitlist?: () => void }) => 
                     <h3 className="text-2xl font-bold mb-2">Pay-as-you-go</h3>
                     <div className="flex flex-col items-center mb-8">
                         <span className="text-5xl md:text-7xl font-bold text-text-main">$0.05</span>
-                        <span className="text-text-muted text-sm mt-2">for 1 person that fit your base criteria + contextual AI-analysis for free</span>
+                        <span className="text-text-muted text-sm mt-2">per profile that fits your base criteria + contextual AI analysis on top.</span>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-6 w-full max-w-2xl mb-10">
@@ -51,7 +51,7 @@ export const Pricing = ({ onJoinWaitlist }: { onJoinWaitlist?: () => void }) => 
                         onClick={onJoinWaitlist}
                         className="w-full max-w-sm py-4 rounded-2xl bg-primary-blue text-white font-bold text-lg hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] transition-all"
                     >
-                        Get Started
+                        Join waitlist
                     </button>
                 </motion.div>
             </div>

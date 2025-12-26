@@ -43,15 +43,15 @@ export const Hero = ({ onJoinWaitlist }: { onJoinWaitlist?: (email: string) => v
                     </div>
 
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 max-w-5xl leading-[1.2] flex flex-col items-center">
-                        <span className="flex items-center justify-center flex-wrap gap-y-2">
-                            Find your perfect
-                            <RotatingText words={['copilot', 'adviser', 'co-founder']} />
+                        <span className="flex items-center justify-center flex-wrap gap-y-2 text-center">
+                            Shortlist the right
+                            <RotatingText words={['co-founder', 'advisor']} />
+                            with contextual search
                         </span>
-                        <span className="block mt-2">with unparalleled precision</span>
                     </h1>
 
                     <p className="text-lg md:text-xl text-text-muted mb-10 max-w-3xl text-balance mx-auto">
-                        Perfect-fit shortlist with contextual filters in 4 minutes, instead of a week lost in LinkedIn.
+                        A perfect-fit shortlist with contextual filters in 4 minutes, instead of a week lost in profile tabs.
                     </p>
 
                     <form

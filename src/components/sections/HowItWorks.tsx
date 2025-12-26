@@ -15,7 +15,7 @@ export const HowItWorks = () => {
         {
             icon: <Brain size={32} />,
             title: "Add intelligent context",
-            desc: "Explain what \"good\" looks like beyond simple keywords. Tell us about the DNA of your ideal hire.",
+            desc: "Explain what “good” looks like beyond keywords. Tell us what partner-fit looks like for this search.",
             bullets: [
                 "Relevant experience in specific domain/function",
                 "Deep experience in target countries",
@@ -24,8 +24,8 @@ export const HowItWorks = () => {
         },
         {
             icon: <UserCheck size={32} />,
-            title: "Get perfect matches",
-            desc: "Receive a ranked shortlist with reasoning and direct LinkedIn links. No more manual screening.",
+            title: "Get your shortlist",
+            desc: "Receive a shortlist with reasoning and proof links. No more manual screening.",
             bullets: []
         }
     ]

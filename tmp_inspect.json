@@ -1,0 +1,137 @@
+{
+  "id": "dpl_BTiqYVyRUpu95cHSijBSta4y9iCF",
+  "name": "copilotry",
+  "url": "copilotry-krmidq981-dstepkin-gmailcoms-projects.vercel.app",
+  "target": "production",
+  "readyState": "READY",
+  "createdAt": 1766745198768,
+  "aliases": [
+    "www.copilotry.app",
+    "copilotry.vercel.app",
+    "copilotry-dstepkin-gmailcoms-projects.vercel.app",
+    "copilotry-dstepkin-1064-dstepkin-gmailcoms-projects.vercel.app",
+    "copilotry.app"
+  ],
+  "builds": [
+    {
+      "id": "bld_7s2l53tg7",
+      "deploymentId": "dpl_BTiqYVyRUpu95cHSijBSta4y9iCF",
+      "entrypoint": ".",
+      "readyState": "READY",
+      "readyStateAt": 1766745199506,
+      "createdAt": 1766745199506,
+      "createdIn": "sfo1",
+      "use": "@vercel/vc-build",
+      "config": {
+        "nodeVersion": "24.x",
+        "projectCreatedAt": 1766743126935,
+        "useVercelTs": true,
+        "vercelConfig": {
+          "version": 2,
+          "builds": [
+            {
+              "src": "package.json",
+              "use": "@vercel/next"
+            }
+          ],
+          "name": "copilotry"
+        }
+      },
+      "middleware": [],
+      "output": [
+        {
+          "prerender": {},
+          "type": "lambda",
+          "path": "_not-found",
+          "digest": "prj_0XS15YYsBVzJAG7Fu22lIWK9PDGs/07a8c481882e7044cd89da6078354f8171d3aa079b6150213b5f6a9e84e554e2",
+          "mode": 49590,
+          "size": 1054678,
+          "lambda": {
+            "functionName": "team_zInpdBQuH4RpaZN0gcIRIqmO-e9355b6713e12ab627b7bf044f82b267f9",
+            "deployedTo": [
+              "iad1"
+            ],
+            "runtime": "nodejs24.x",
+            "memorySize": 2048,
+            "timeout": 300
+          },
+          "edge": null
+        },
+        {
+          "prerender": {},
+          "type": "lambda",
+          "path": "_not-found.rsc",
+          "digest": "prj_0XS15YYsBVzJAG7Fu22lIWK9PDGs/07a8c481882e7044cd89da6078354f8171d3aa079b6150213b5f6a9e84e554e2",
+          "mode": 49590,
+          "size": 1054678,
+          "lambda": {
+            "functionName": "team_zInpdBQuH4RpaZN0gcIRIqmO-e9355b6713e12ab627b7bf044f82b267f9",
+            "deployedTo": [
+              "iad1"
+            ],
+            "runtime": "nodejs24.x",
+            "memorySize": 2048,
+            "timeout": 300
+          },
+          "edge": null
+        },
+        {
+          "prerender": {},
+          "type": "lambda",
+          "path": "index",
+          "digest": "prj_0XS15YYsBVzJAG7Fu22lIWK9PDGs/07a8c481882e7044cd89da6078354f8171d3aa079b6150213b5f6a9e84e554e2",
+          "mode": 49590,
+          "size": 1054678,
+          "lambda": {
+            "functionName": "team_zInpdBQuH4RpaZN0gcIRIqmO-e9355b6713e12ab627b7bf044f82b267f9",
+            "deployedTo": [
+              "iad1"
+            ],
+            "runtime": "nodejs24.x",
+            "memorySize": 2048,
+            "timeout": 300
+          },
+          "edge": null
+        },
+        {
+          "prerender": {},
+          "type": "lambda",
+          "path": "index.rsc",
+          "digest": "prj_0XS15YYsBVzJAG7Fu22lIWK9PDGs/07a8c481882e7044cd89da6078354f8171d3aa079b6150213b5f6a9e84e554e2",
+          "mode": 49590,
+          "size": 1054678,
+          "lambda": {
+            "functionName": "team_zInpdBQuH4RpaZN0gcIRIqmO-e9355b6713e12ab627b7bf044f82b267f9",
+            "deployedTo": [
+              "iad1"
+            ],
+            "runtime": "nodejs24.x",
+            "memorySize": 2048,
+            "timeout": 300
+          },
+          "edge": null
+        },
+        {
+          "prerender": {},
+          "type": "lambda",
+          "path": "index",
+          "digest": "prj_0XS15YYsBVzJAG7Fu22lIWK9PDGs/07a8c481882e7044cd89da6078354f8171d3aa079b6150213b5f6a9e84e554e2",
+          "mode": 49590,
+          "size": 1054678,
+          "lambda": {
+            "functionName": "team_zInpdBQuH4RpaZN0gcIRIqmO-e9355b6713e12ab627b7bf044f82b267f9",
+            "deployedTo": [
+              "iad1"
+            ],
+            "runtime": "nodejs24.x",
+            "memorySize": 2048,
+            "timeout": 300
+          },
+          "edge": null
+        }
+      ],
+      "fingerprint": null
+    }
+  ],
+  "contextName": "dstepkin-gmailcoms-projects"
+}

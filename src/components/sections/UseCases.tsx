@@ -7,9 +7,9 @@ import { cn } from '@/lib/utils'
 
 const useCases = [
     {
-        id: 'adviser',
-        label: 'Adviser',
-        query: 'Product strategy adviser for B2B SaaS',
+        id: 'advisor',
+        label: 'Advisor',
+        query: 'Product strategy advisor for B2B SaaS',
         context: 'Looking for someone who has scaled from $1M to $50M ARR. Must have experience in European markets and deep understanding of PLG.',
         candidates: [
             { name: "Marc Peterson", title: "Scale-up Specialist", reasons: ["Scaled Segment from $10M to $100M", "Advisor to 4 unicorn startups"] },

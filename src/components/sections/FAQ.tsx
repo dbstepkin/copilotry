@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils'
 const faqItems = [
     {
         question: "What do I get: links only or exports?",
-        answer: "You get a dashboard with ranked profiles, reasoning for each match, and direct LinkedIn profile links. Enterprise users can export candidate shortlists to CSV or JSON formats."
+        answer: "You get a dashboard with shortlisted profiles, reasoning for each match, and proof links. Users can export shortlists to CSV or XSLX formats."
     },
     {
         question: "What is intelligent context?",

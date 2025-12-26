@@ -33,7 +33,7 @@ export const ResultsVisual = () => {
             <div className="max-w-5xl w-full">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-5xl font-bold mb-4 text-[#0F172A]">Precision Verification</h2>
-                    <p className="text-[#64748B] text-lg">Every candidate is matched against your unique constraints.</p>
+                    <p className="text-[#64748B] text-lg">Every profile is checked against your unique constraints.</p>
                 </div>
 
                 <motion.div
@@ -56,11 +56,26 @@ export const ResultsVisual = () => {
                         <table className="w-full text-left">
                             <thead>
                                 <tr className="border-b border-slate-100 italic">
-                                    <th className="px-8 py-6 text-sm font-bold text-slate-900">Candidate</th>
-                                    <th className="px-6 py-6 text-sm font-bold text-slate-900 text-center">Profile</th>
-                                    <th className="px-6 py-6 text-sm font-bold text-slate-400 text-center">Your criteria 1</th>
-                                    <th className="px-6 py-6 text-sm font-bold text-slate-400 text-center">Your criteria 2</th>
-                                    <th className="px-6 py-6 text-sm font-bold text-slate-400 text-center">Your criteria 3</th>
+                                    <th className="px-8 py-6 text-sm font-bold text-slate-900">Profile</th>
+                                    <th className="px-6 py-6 text-sm font-bold text-slate-900 text-center">Proof links</th>
+                                    <th className="px-6 py-6 text-sm font-bold text-slate-400 text-center">
+                                        Criteria 1
+                                        <div className="flex justify-center gap-2 mt-2 text-xs">
+                                            <span className="px-3 py-1 rounded-full bg-slate-100 text-slate-600">Ex-founder</span>
+                                        </div>
+                                    </th>
+                                    <th className="px-6 py-6 text-sm font-bold text-slate-400 text-center">
+                                        Criteria 2
+                                        <div className="flex justify-center gap-2 mt-2 text-xs">
+                                            <span className="px-3 py-1 rounded-full bg-slate-100 text-slate-600">Go-to-market experience</span>
+                                        </div>
+                                    </th>
+                                    <th className="px-6 py-6 text-sm font-bold text-slate-400 text-center">
+                                        Criteria 3
+                                        <div className="flex justify-center gap-2 mt-2 text-xs">
+                                            <span className="px-3 py-1 rounded-full bg-slate-100 text-slate-600">Tech savvy</span>
+                                        </div>
+                                    </th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -100,7 +115,7 @@ export const ResultsVisual = () => {
 
                     <div className="p-6 bg-emerald-50/50 border-t border-emerald-100 flex items-center justify-center gap-3">
                         <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                        <span className="text-sm font-medium text-emerald-700">Perfect Match Found: Thomas Shelbourne meets all 12 smart filters.</span>
+                        <span className="text-sm font-medium text-emerald-700">Top fit: Thomas Shelbourne meets all 3 contextual filters.</span>
                     </div>
                 </motion.div>
             </div>

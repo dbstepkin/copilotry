@@ -33,7 +33,7 @@ export const ContextualAI = () => {
     useEffect(() => {
         const timer = setInterval(() => {
             setIndex((prev) => (prev + 1) % examples.length)
-        }, 3000)
+        }, 4500)
         return () => clearInterval(timer)
     }, [])
 
@@ -81,9 +81,11 @@ export const ContextualAI = () => {
 
                     <div className="mt-12 flex justify-center gap-2">
                         {examples.map((_, i) => (
-                            <div
+                            <button
                                 key={i}
-                                className={`h-1.5 rounded-full transition-all duration-500 ${i === index ? 'w-8 bg-primary-blue' : 'w-2 bg-border'}`}
+                                onClick={() => setIndex(i)}
+                                aria-label={`Show example ${i + 1}`}
+                                className={`h-1.5 rounded-full transition-all duration-500 ${i === index ? 'w-8 bg-primary-blue' : 'w-2 bg-border'} hover:bg-primary-blue/70 focus:outline-none focus:ring-2 focus:ring-primary-blue/40`}
                             />
                         ))}
                     </div>
@@ -95,7 +97,7 @@ export const ContextualAI = () => {
                         Use cases
                     </h2>
                     <p className="text-text-muted text-lg whitespace-nowrap">
-                        Tailored for the most critical searches. From technical leads to strategic growth specialists, we find the DNA that matters.
+                        Built for founder-critical searches. Co-founders, advisors, and first key operators, filtered by real context.
                     </p>
                 </div>
             </div>

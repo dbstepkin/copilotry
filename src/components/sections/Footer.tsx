@@ -11,7 +11,7 @@ export const Footer = () => {
                         </div>
                         <span className="font-bold text-lg tracking-tight text-text-main font-mono">CoPilotry</span>
                     </div>
-                    <p className="text-sm text-text-muted">High-precision recruitment co-pilot.</p>
+                    <p className="text-sm text-text-muted">High-precision partner search co-pilot.</p>
                 </div>
 
                 <div className="flex flex-wrap justify-center gap-8 text-sm text-text-muted">
